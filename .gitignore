@@ -1,0 +1,12 @@
+node_modules
+.next
+*.tsbuildinfo
+next-env.d.ts
+
+# secrets and local data
+.env*
+!.env.example
+data/*.json
+data/*.tmp
+.vercel
+.claude
